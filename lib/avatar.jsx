@@ -12,6 +12,6 @@ export default function Avatar(props) {
 }
 
 Avatar.propTypes = {
-  email: PropTypes.string.isRequired,
-  src: PropTypes.string.isRequired,
+  email: PropTypes.string,
+  src: PropTypes.string,
 };
