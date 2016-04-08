@@ -4,7 +4,7 @@ import { expect } from 'chai';
 
 import Email from '../lib/email';
 
-describe('<Email>', function() {
+describe('<Email />', function() {
   it('should have an input for the email', function() {
     const wrapper = shallow(<Email />);
     expect(wrapper.find('input')).to.have.length(1);

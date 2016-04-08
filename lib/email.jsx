@@ -6,7 +6,8 @@ export default function Email(props) {
       <input onChange={props.handleEmailChange} className="form-control"
         style={{
           width: 200,
-        }} type="text"
+        }}
+        type="text"
       />
       <button onClick={props.fetchGravatar} className="btn-success btn">
         Fetch
